@@ -41,7 +41,7 @@ import requests, json, datetime
 
 def location_getter():
     location = input("Please enter the city for your inquiry. Or city, country.")
-    mykey = "&APPID=eecaa49a37fc848260ee555f8992dc29"
+    mykey = ""
     locurl = "https://api.openweathermap.org/geo/1.0/direct?q=" + location + "&limit=1" + mykey
     try:
         response = requests.get(locurl)
@@ -67,7 +67,7 @@ def location_getter():
 
 def ziptocoord():
     zip = input("Please enter the zipcode for your inquiry.")
-    mykey = "&APPID=eecaa49a37fc848260ee555f8992dc29"
+    mykey = "&APPID="
     locurl = "https://api.openweathermap.org/geo/1.0/zip?zip=" + zip + mykey
 
     try:
@@ -89,7 +89,7 @@ def ziptocoord():
 
 def connect_to_forecast(location, unit):
     website_forecast = "https://api.openweathermap.org/data/3.0/onecall?"
-    mykey = "&APPID=eecaa49a37fc848260ee555f8992dc29"
+    mykey = "&APPID="
     unitcall = "&units=" + unit
     urlpage_forecast = website_forecast + location + unitcall + mykey
     try:
