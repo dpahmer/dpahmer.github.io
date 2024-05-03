@@ -2,3 +2,7 @@
   background:blue;  
   color: pink;
 }
+
+div {
+   border: 5px solid red;
+}
