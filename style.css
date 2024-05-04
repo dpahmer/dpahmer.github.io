@@ -1,6 +1,3 @@
-.hello {
-}
-
 nav {
   display: flex;
   justify-content: space-around;
@@ -51,6 +48,7 @@ nav {
 
 .section {
   display: flex;
+  flex-direction: column;
 }
 .contactSection {
   font-weight: bold; 
