@@ -53,4 +53,15 @@ nav {
 .contactSection {
   font-weight: bold; 
 }
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project {
   
+}
