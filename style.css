@@ -63,5 +63,8 @@ nav {
 }
 
 .project {
-  
+  background: light-orange;
+  border-style: double;
+  border-width: 2px;
+  border-radius: 5px;
 }
