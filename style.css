@@ -57,7 +57,7 @@ nav {
 .container {
   display: flex;
   flex-direction: row;
-  width: 50%;
+  width: 100%;
   flex-wrap: wrap;
   justify-content: space-between;
 }
