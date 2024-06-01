@@ -96,7 +96,8 @@ nav {
   width:300px;
 }
 
-.photoAndName {
+.photoAndName,
+.contactContainer {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
