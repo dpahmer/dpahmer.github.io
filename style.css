@@ -127,9 +127,9 @@ nav {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
-  width: 200px;
-  height: 200px;
-  background-image: linear-gradient(orange, white);
+  width: 300px;
+  height: 300px;
+  background-image: linear-gradient(orange, yellow);
   align-items: center;
   align-content: center;
   border-radius: 50%;
