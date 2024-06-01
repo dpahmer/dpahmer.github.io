@@ -49,6 +49,7 @@ nav {
 
 .section {
   display: flex;
+  margin-bottom: 10px;
 }
 .contactSection {
   font-weight: bold; 
