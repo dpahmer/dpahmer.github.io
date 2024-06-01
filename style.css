@@ -96,8 +96,7 @@ nav {
   width:300px;
 }
 
-.photoAndName,
-.contactContainer {
+.photoAndName {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
@@ -122,4 +121,16 @@ nav {
 
 .aboutme {
     font-size: 20px;
+}
+
+..contactContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  background-image: linear-gradient(orange, white);
+  align-items: center;
+  align-content: center;
+  border-radius: 50%;
 }
