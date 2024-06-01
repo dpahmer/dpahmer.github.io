@@ -97,6 +97,14 @@ nav {
 }
 
 .photoAndName {
-  display:flex;
-  flex-direction: column;
+  display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: fantasy;
+    width: 500px;
+    height: 500px;
+    background-image: linear-gradient(orange, white);
+    align-items: center;
+    border-radius: 50%;
 }
