@@ -71,3 +71,9 @@ nav {
   max-width: 400px;
   padding: 30px;
 }
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
