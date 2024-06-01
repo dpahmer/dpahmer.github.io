@@ -108,3 +108,7 @@ nav {
     align-items: center;
     border-radius: 50%;
 }
+
+.aboutmeContainer {
+  display: flex;
+}
