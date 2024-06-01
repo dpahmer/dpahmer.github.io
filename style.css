@@ -101,15 +101,18 @@ nav {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
-  font-size: 40px;
-  font-family: fantasy;
   width: 500px;
   height: 500px;
   background-image: linear-gradient(orange, white);
   align-items: center;
   border-radius: 50%;
   margin-right: 20px;
+}
+
+.name {
   letter-spacing: 2px;
+  font-size: 40px;
+  font-family: fantasy;
 }
 
 .aboutmeContainer {
