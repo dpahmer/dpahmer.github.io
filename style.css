@@ -90,3 +90,13 @@ nav {
   height: 30px;
   margin-right: 3px;
 }
+
+.headshot {
+  height:300px;
+  width:300px;
+}
+
+.photoAndName {
+  display:flex;
+  flex-direction: column;
+}
