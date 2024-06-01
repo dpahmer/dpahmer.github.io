@@ -65,7 +65,7 @@ nav {
 }
 
 .project {
-  background: orange;
+  background-image: linear-gradient(orange, oldlace);
   border-style: double;
   border-width: 2px;
   border-radius: 5px;
